@@ -15,7 +15,7 @@ While the former can be used to train M1, M2_cc as well as the ablation model (i
 ##### Training
 
 ```shell
-python3.9 vulrepair_main.py 
+python3.9 codet5.py 
         --model_name=model.bin   
         --output_dir=./models/M1/
         --tokenizer_name=Salesforce/codet5-base
@@ -36,7 +36,7 @@ python3.9 vulrepair_main.py
 ##### Inference
 
 ```shell
-python3.9 vulrepair_main.py 
+python3.9 codet5.py 
         --model_name=model.bin   
         --output_dir=./models/M1/
         --tokenizer_name=Salesforce/codet5-base
